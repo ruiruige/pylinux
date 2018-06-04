@@ -10,20 +10,13 @@ class BaseSystemFile(object):
     系统文件的基类
     """
 
-    def __init__(self, filepath, searcher=None, modifier=None, file_config=FileConfig()):
+    def __init__(self, filepath, searcher=BaseSearcher, modifier=BaseModifier, file_config=FileConfig()):
         self.filepath = filepath
         self.lines = []
         self.load()
 
-        if not searcher:
-            self.searcher = BaseSearcher(self.lines, file_config=file_config)
-        else:
-            self.searcher = searcher
-
-        if not modifier:
-            self.modifier = BaseModifier(self.lines, file_config=file_config)
-        else:
-            self.modifier = modifier
+        self.searcher = searcher(self.lines, file_config=file_config)
+        self.modifier = modifier(self.lines, file_config=file_config)
 
     def load(self):
         """

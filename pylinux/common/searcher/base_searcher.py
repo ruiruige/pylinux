@@ -80,13 +80,13 @@ class BaseSearcher(object):
         result = result_list[0]
         return name == result
 
-    def __is_line_about_setting(self, setting, line):
+    def __is_line_about_setting(self, name, line):
         """
         判断该行是不是给定设置项的行
-        :param setting:
+        :param name:
         :param line:
         """
-        if setting not in line:
+        if name not in line:
             return False
 
         if self.file_config.connector not in line:

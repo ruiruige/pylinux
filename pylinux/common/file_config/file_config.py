@@ -9,8 +9,9 @@ class FileConfig(object):
         self.comment_symbols = ["#"]
         self.comment_line_template_prefix = self.get_default_comment_symbol() * 6
         self.comment_line_template_suffix = self.get_default_comment_symbol() * 6
-        self.comment_line_template = "{0} pylinux setting: [{}] {1}".format(
+        self.comment_line_template = "{0} pylinux setting: [{1}] {2}".format(
             self.comment_line_template_prefix,
+            "{}",
             self.comment_line_template_suffix)
         self.comment_line_pattern = "{0} pylinux setting: \\[(.+?)\\] {1}".format(
             self.comment_line_template_prefix,

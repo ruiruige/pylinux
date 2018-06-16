@@ -1,0 +1,33 @@
+# /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
+
+# Set the maximum number of FUSE mounts allowed to non-root users.
+# The default is 1000.
+#mount_max = 1000
+
+# Allow non-root users to specify the allow_other or allow_root mount options.
+#user_allow_other
+
+test_no_comment=test_no_comment_value
+
+# test
+test_error_comment=test_error_comment_value
+
+###### pylinux setting: [fake] ######
+test_fake_name=test_fake_name_value
+
+###### pylinux setting: [test_correct_name] ######
+test_correct_name=test_correct_name_value
+
+###### pylinux setting: [test_left_space_name] ######
+ test_left_space_name=test_left_space_name_value
+
+###### pylinux setting: [test_right_space_name] ######
+test_right_space_name=test_right_space_name_value
+
+###### pylinux setting: [test_both_space_name] ######
+   test_both_space_name=test_both_space_name_value
+
+###### pylinux setting: [test_connector_space_name] ######
+test_connector_space_name   = test_connector_space_name_value
+
+

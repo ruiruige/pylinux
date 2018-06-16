@@ -34,8 +34,8 @@ class BaseSearcher(object):
         if -1 == first_connector_index:
             return None
 
-        line_setting_part = line[:first_connector_index]
-        return line_setting_part.strip()
+        line_setting_value_part = line[first_connector_index + 1:]
+        return line_setting_value_part.strip()
 
     def get_setting_line(self, name):
         """
@@ -80,7 +80,7 @@ class BaseSearcher(object):
         result = result_list[0]
         return name == result
 
-    def __is_line_about_setting(self, name, line):
+    def __is_line_about_setting(self, line, name):
         """
         判断该行是不是给定设置项的行
         :param name:
@@ -98,3 +98,12 @@ class BaseSearcher(object):
 
         setting_value = self.setting_from_single_line(line)
         return True if setting_value else False
+
+    def setting_exist(self, name):
+        """
+        判断给定设置是否存在
+        :param name:
+        :return:
+        """
+        occurrence = self.get_setting_occurrence(name)
+        return True if occurrence else False

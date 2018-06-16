@@ -33,7 +33,7 @@ class BaseSystemFile(object):
         return self.searcher.get_setting(name)
 
     def setting_exists(self, name):
-        return self.searcher.setting_exists(name)
+        return self.searcher.setting_exist(name)
 
     def set_setting(self, name, value):
         occurrence = self.searcher.get_setting_occurrence(name)

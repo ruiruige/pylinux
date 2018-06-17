@@ -7,6 +7,7 @@ import context
 from context import get_test_abs_filepath
 from pylinux.system_file.rc_local import RcLocal
 
+
 class RcLocalTestCase(unittest.TestCase):
 
     @classmethod
@@ -22,8 +23,6 @@ class RcLocalTestCase(unittest.TestCase):
         每个测试用例执行之前做操作
         :return:
         """
-        config_file = get_test_abs_filepath("rc.local")
-
         print('setUp')
 
     def tearDown(self):

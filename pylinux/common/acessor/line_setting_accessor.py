@@ -2,10 +2,10 @@
 # coding=utf-8
 
 
-from pylinux.common.searcher.base_searcher import BaseSearcher
+from pylinux.common.acessor.base_accessor import BaseAccessor
 
 
-class LineSettingSearcher(BaseSearcher):
+class LineSettingAccessor(BaseAccessor):
     """
     LineSettingSearcher 对应的系统文件中，每一行的全文内容就是它的value
     它的key/name只能在注释里存在

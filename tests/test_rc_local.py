@@ -8,7 +8,7 @@ from context import get_test_abs_filepath
 from pylinux.system_file.rc_local import RcLocal
 
 
-class RcLocalTestCase(unittest.TestCase):
+class TestRcLocal(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):

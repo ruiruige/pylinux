@@ -27,3 +27,12 @@ class FileConfig(object):
         :return:
         """
         return self.comment_line_template.format(name)
+
+    def generate_setting_line(self, name, value):
+        """
+        生成一个配置行
+        :param name:
+        :param value:
+        :return:
+        """
+        return name + " " + self.connector + " " + value

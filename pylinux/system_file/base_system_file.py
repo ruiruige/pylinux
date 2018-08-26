@@ -1,8 +1,7 @@
 # /usr/bin/env python
 # coding=utf-8
 from pylinux.common.file_config.file_config import FileConfig
-from pylinux.common.modifier.base_modifier import BaseModifier
-from pylinux.common.searcher.base_searcher import BaseSearcher
+from pylinux.common.acessor.base_accessor import BaseAccessor
 
 
 class BaseSystemFile(object):
@@ -10,13 +9,12 @@ class BaseSystemFile(object):
     系统文件的基类
     """
 
-    def __init__(self, filepath, searcher=BaseSearcher, modifier=BaseModifier, file_config=FileConfig()):
+    def __init__(self, filepath, accessor=BaseAccessor, file_config=FileConfig()):
         self.filepath = filepath
         self.lines = []
         self.load()
 
-        self.searcher = searcher(self.lines, file_config=file_config)
-        self.modifier = modifier(self.lines, file_config=file_config)
+        self.accessor = accessor(self.lines, file_config=file_config)
 
     def load(self):
         """
@@ -30,14 +28,15 @@ class BaseSystemFile(object):
             f.writelines(self.lines)
 
     def get_setting(self, name):
-        return self.searcher.get_setting(name)
+        return self.accessor.get_setting(name)
 
     def setting_exists(self, name):
-        return self.searcher.setting_exist(name)
+        return self.accessor.setting_exist(name)
 
-    def set_setting(self, name, value):
-        occurrence = self.searcher.get_setting_occurrence(name)
+    def set_setting(self, name, value, add_comment=True):
+        occurrence = self.accessor.get_setting_occurrence(name)
         if occurrence:
-            self.modifier.add_setting(name, value)
+            self.accessor.add_setting(name, value, add_comment)
         else:
-            self.modifier.update_setting(name, value)
+            self.accessor.update_setting(name, value)
+        self.flush()

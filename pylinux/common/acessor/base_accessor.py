@@ -6,10 +6,10 @@ import re
 from pylinux.common.file_config.file_config import FileConfig
 
 
-class BaseSearcher(object):
+class BaseAccessor(object):
 
     def __init__(self, lines, file_config=FileConfig()):
-        self.initial_lines = lines
+        self.lines = lines
         self.file_config = file_config
 
     def get_setting(self, name):
@@ -43,7 +43,7 @@ class BaseSearcher(object):
         :param name:
         """
         occurrence = self.get_setting_occurrence(name)
-        return self.initial_lines[occurrence]
+        return self.lines[occurrence]
 
     def get_setting_comment_occurrence(self, name):
         """
@@ -51,7 +51,7 @@ class BaseSearcher(object):
         :param name:
         :return:
         """
-        for idx, line in enumerate(self.initial_lines):
+        for idx, line in enumerate(self.lines):
             if self.is_line_about_setting_comment(line, name):
                 return idx
         return False
@@ -62,7 +62,7 @@ class BaseSearcher(object):
         :param name:
         :return:
         """
-        for idx, line in enumerate(self.initial_lines):
+        for idx, line in enumerate(self.lines):
             if self.is_line_about_setting_comment(line, name):
                 return idx + 1
             if self.__is_line_about_setting(line, name):
@@ -107,3 +107,15 @@ class BaseSearcher(object):
         """
         occurrence = self.get_setting_occurrence(name)
         return True if occurrence else False
+
+    def append_one_line(self, line):
+        self.lines.append(line + "\n")
+
+    def add_setting(self, name, value, add_comment):
+        if add_comment:
+            self.append_one_line(self.file_config.generate_setting_comment(name))
+
+        self.append_one_line(self.file_config.generate_setting_line(name, value))
+
+    def update_setting(self, name, value):
+        pass

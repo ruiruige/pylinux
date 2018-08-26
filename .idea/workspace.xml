@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07309b4-3267-4576-9362-d8f845f53e69" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pylinux.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/303f3d7484cac333011a8db025f0d1170d19ce4a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/336a09f53e305c339e6e00977d5c8c5aea198a09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37331e30a2086c4f4f5e30c6446f2bf5e084719e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46069868588e2308ac6b5902cda93f1c8bf3970a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70f47b1fb6457b95c526ecf4a8b3f933777cf388" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/855150b8af63b004d9ad2215a5193c3108ccd311" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e911f6351f3fa0cd30fc10a701473fbb56707e6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1ea1894e0db6b746ae48acb3b3071c716bc373c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aaa49a4e0343f47de39287eb7a2e52fd1018059e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1708154f80cc7781b9968f8f36b43780227c359" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df83dcde847873ab7dabb4b777a18aa156a7c68e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea15b6e4b55d1e1812b172d6db211cc072df4a5a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="a07309b4-3267-4576-9362-d8f845f53e69" name="Default" comment="取消追踪idea文件夹">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/common/file_config/file_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/common/file_config/file_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/common/modifier/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/common/acessor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/common/modifier/base_modifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/common/modifier/line_setting_modifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/common/modifier/rc_local_modifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/common/searcher/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/common/searcher/base_searcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/common/acessor/base_accessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/common/searcher/line_setting_searcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/common/acessor/line_setting_accessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/common/searcher/rc_local_searcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/common/acessor/rc_local_accessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/system_file/base_system_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/system_file/base_system_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/system_file/line_setting_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/system_file/line_setting_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/system_file/rc_local.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/system_file/rc_local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/base_system_file_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_base_system_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/rc_local_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_rc_local.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,38 +27,48 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pylinux$SettingNotValidException.coverage" NAME="SettingNotValidException Coverage Results" MODIFIED="1527968863190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pylinux/exception" />
     <SUITE FILE_PATH="coverage/pylinux$Unittests_for_base_system_file_test_BaseSystemFileTestCase_test_error_comment.coverage" NAME="Unittests for base_system_file_test.BaseSystemFileTestCase.test_error_comment Coverage Results" MODIFIED="1529176873408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pylinux$Unittests_in_rc_local_test_py.coverage" NAME="Unittests in rc_local_test.py Coverage Results" MODIFIED="1535300478199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/pylinux$Unittests_in_RcLocalTest_py.coverage" NAME="Unittests in RcLocalTest.py Coverage Results" MODIFIED="1527868122485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pylinux/tests" />
-    <SUITE FILE_PATH="coverage/pylinux$Unittests_in_base_system_file_test_py.coverage" NAME="Unittests in base_system_file_test.py Coverage Results" MODIFIED="1529176636090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pylinux$Unittests_in_base_system_file_test_py.coverage" NAME="Unittests in base_system_file_test.py Coverage Results" MODIFIED="1535301897301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/pylinux$Unittests_for_base_system_file_test_BaseSystemFileTestCase.coverage" NAME="Unittests for base_system_file_test.BaseSystemFileTestCase Coverage Results" MODIFIED="1529176892866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1815010924">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
+          <entry key="py" value="37" />
+          <entry key="test" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Python Console" value="33" />
+          <entry key="dummy" value="150" />
           <entry key="gitignore" value="24" />
+          <entry key="py" value="1282" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="PLAIN_TEXT" value="197" />
+          <entry key="Python" value="1315" />
         </counts>
       </usages-collector>
     </session>
@@ -74,102 +76,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylinux/system_file/line_setting_file.py">
+        <entry file="file://$PROJECT_DIR$/pylinux/system_file/base_system_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="26">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
-                <element signature="e#38#115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylinux/common/default_settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylinux/common/modifier/line_setting_modifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/rc_local_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-              <folding>
-                <element signature="e#37#52#0" expanded="true" />
+                <element signature="e#37#98#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/tests/test_base_system_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylinux/common/file_config/file_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/files/base_system_file.test">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylinux/common/searcher/base_searcher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2070">
-              <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+            <state relative-caret-position="629">
+              <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
               <folding>
-                <element signature="e#38#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/base_system_file_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pylinux/system_file/base_system_file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#37#98#0" expanded="true" />
+                <element signature="e#38#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,6 +112,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>comment_line_template</find>
+      <find>test_fp</find>
+      <find>lines</find>
+      <find>filepath</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,21 +137,31 @@
         <option value="$PROJECT_DIR$/pylinux/common/modifier/rc_local_modifier.py" />
         <option value="$PROJECT_DIR$/pylinux/common/searcher/line_setting_searcher.py" />
         <option value="$PROJECT_DIR$/pylinux/common/searcher/rc_local_searcher.py" />
-        <option value="$PROJECT_DIR$/pylinux/system_file/rc_local.py" />
         <option value="$PROJECT_DIR$/pylinux/system_file/line_setting_file.py" />
         <option value="$PROJECT_DIR$/pylinux/common/file_config/line_setting_config.py" />
         <option value="$PROJECT_DIR$/pylinux/common/file_config/line_setting_file_config.py" />
         <option value="$PROJECT_DIR$/pylinux/common/file_config/rc_local_file_config.py" />
-        <option value="$PROJECT_DIR$/pylinux/system_file/base_system_file.py" />
         <option value="$PROJECT_DIR$/tests/files/base_system_file.txt" />
-        <option value="$PROJECT_DIR$/pylinux/common/file_config/file_config.py" />
         <option value="$PROJECT_DIR$/pylinux/common/searcher/base_searcher.py" />
         <option value="$PROJECT_DIR$/tests/base_system_file_test.py" />
         <option value="$PROJECT_DIR$/tests/files/base_system_file.test" />
         <option value="$PROJECT_DIR$/pylinux/common/default_settings.py" />
         <option value="$PROJECT_DIR$/pylinux/common/modifier/line_setting_modifier.py" />
-        <option value="$PROJECT_DIR$/tests/rc_local_test.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pylinux/common/utils/file_util.py" />
+        <option value="$PROJECT_DIR$/pylinux/common/util/file_util.py" />
+        <option value="$PROJECT_DIR$/pylinux/system_file/rc_local.py" />
+        <option value="$PROJECT_DIR$/pylinux/common/acessor/base_searcher.py" />
+        <option value="$PROJECT_DIR$/tests/common/BaseTest.py" />
+        <option value="$PROJECT_DIR$/tests/rc_local_test.py" />
+        <option value="$PROJECT_DIR$/pylinux/common/acessor/line_setting_accessor.py" />
+        <option value="$PROJECT_DIR$/pylinux/common/acessor/rc_local_accessor.py" />
+        <option value="$PROJECT_DIR$/pylinux/system_file/base_system_file.py" />
+        <option value="$PROJECT_DIR$/pylinux/common/file_config/file_config.py" />
+        <option value="$PROJECT_DIR$/pylinux/common/acessor/base_accessor.py" />
+        <option value="$PROJECT_DIR$/tests/test_main.py" />
+        <option value="$PROJECT_DIR$/tests/common/base_test.py" />
+        <option value="$PROJECT_DIR$/tests/test_base_system_file.py" />
       </list>
     </option>
   </component>
@@ -249,13 +186,49 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pylinux" type="b2602c69:ProjectViewProjectNode" />
               <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pylinux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pylinux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pylinux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="acessor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pylinux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pylinux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="config_file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pylinux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
+              <item name="system_file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pylinux" type="b2602c69:ProjectViewProjectNode" />
@@ -268,16 +241,11 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pylinux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pylinux" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,12 +258,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\各种项目\pylinux\pylinux\common\exception" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\各种项目\pylinux\pylinux" />
       <recent name="G:\各种项目\pylinux" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\各种项目\pylinux\pylinux\common\exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for base_system_file_test.BaseSystemFileTestCase">
+  <component name="RunManager" selected="Python tests.Unittests in test_base_system_file.py">
     <configuration name="SettingNotValidException" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pylinux" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -333,7 +301,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for base_system_file_test.BaseSystemFileTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for tests.test_base_system_file.TestBaseSystemFile" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pylinux" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,11 +312,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;base_system_file_test.BaseSystemFileTestCase&quot;" />
+      <option name="_new_target" value="&quot;tests.test_base_system_file.TestBaseSystemFile&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for base_system_file_test.BaseSystemFileTestCase.test_error_comment" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for tests.test_base_system_file.TestBaseSystemFile.test_error_comment" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pylinux" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,11 +327,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;base_system_file_test.BaseSystemFileTestCase.test_error_comment&quot;" />
+      <option name="_new_target" value="&quot;tests.test_base_system_file.TestBaseSystemFile.test_error_comment&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in base_system_file_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_base_system_file.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pylinux" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -374,11 +342,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/base_system_file_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_base_system_file.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in rc_local_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_rc_local.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pylinux" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,24 +357,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/rc_local_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_rc_local.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in rc_local_test.py" />
+      <item itemvalue="Python tests.Unittests in test_rc_local.py" />
       <item itemvalue="Python.SettingNotValidException" />
-      <item itemvalue="Python tests.Unittests in base_system_file_test.py" />
-      <item itemvalue="Python tests.Unittests for base_system_file_test.BaseSystemFileTestCase.test_error_comment" />
-      <item itemvalue="Python tests.Unittests for base_system_file_test.BaseSystemFileTestCase" />
+      <item itemvalue="Python tests.Unittests in test_base_system_file.py" />
+      <item itemvalue="Python tests.Unittests for tests.test_base_system_file.TestBaseSystemFile.test_error_comment" />
+      <item itemvalue="Python tests.Unittests for tests.test_base_system_file.TestBaseSystemFile" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for base_system_file_test.BaseSystemFileTestCase" />
-        <item itemvalue="Python tests.Unittests for base_system_file_test.BaseSystemFileTestCase.test_error_comment" />
-        <item itemvalue="Python tests.Unittests in base_system_file_test.py" />
+        <item itemvalue="Python tests.Unittests in test_base_system_file.py" />
+        <item itemvalue="Python tests.Unittests in test_rc_local.py" />
+        <item itemvalue="Python tests.Unittests for tests.test_base_system_file.TestBaseSystemFile" />
+        <item itemvalue="Python tests.Unittests for tests.test_base_system_file.TestBaseSystemFile.test_error_comment" />
         <item itemvalue="Python.SettingNotValidException" />
-        <item itemvalue="Python tests.Unittests in rc_local_test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -449,31 +417,17 @@
       <option name="project" value="LOCAL" />
       <updated>1529261459859</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="取消追踪idea文件夹">
+      <created>1533413026850</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533413026850</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_base_system_file_test_py - 2018.06.17 at 03h 13m 54s.xml">
-      <configuration name="Unittests in base_system_file_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_base_system_file_test_py - 2018.06.17 at 03h 15m 48s.xml">
-      <configuration name="Unittests in base_system_file_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_base_system_file_test_py - 2018.06.17 at 03h 17m 14s.xml">
-      <configuration name="Unittests in base_system_file_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_base_system_file_test_py - 2018.06.17 at 03h 17m 25s.xml">
-      <configuration name="Unittests in base_system_file_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_base_system_file_test_BaseSystemFileTestCase_test_error_comment - 2018.06.17 at 03h 18m 30s.xml">
-      <configuration name="Unittests for base_system_file_test.BaseSystemFileTestCase.test_error_comment" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_base_system_file_test_BaseSystemFileTestCase_test_error_comment - 2018.06.17 at 03h 19m 16s.xml">
-      <configuration name="Unittests for base_system_file_test.BaseSystemFileTestCase.test_error_comment" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_base_system_file_test_BaseSystemFileTestCase_test_error_comment - 2018.06.17 at 03h 20m 45s.xml">
-      <configuration name="Unittests for base_system_file_test.BaseSystemFileTestCase.test_error_comment" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_base_system_file_test_BaseSystemFileTestCase_test_error_comment - 2018.06.17 at 03h 21m 09s.xml">
       <configuration name="Unittests for base_system_file_test.BaseSystemFileTestCase.test_error_comment" configurationId="tests" />
     </history-entry>
@@ -482,6 +436,27 @@
     </history-entry>
     <history-entry file="Unittests_for_base_system_file_test_BaseSystemFileTestCase - 2018.06.17 at 03h 21m 33s.xml">
       <configuration name="Unittests for base_system_file_test.BaseSystemFileTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_rc_local_test_py - 2018.08.27 at 00h 17m 48s.xml">
+      <configuration name="Unittests in rc_local_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_rc_local_test_py - 2018.08.27 at 00h 18m 48s.xml">
+      <configuration name="Unittests in rc_local_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_rc_local_test_py - 2018.08.27 at 00h 19m 40s.xml">
+      <configuration name="Unittests in rc_local_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_rc_local_test_py - 2018.08.27 at 00h 20m 02s.xml">
+      <configuration name="Unittests in rc_local_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_rc_local_test_py - 2018.08.27 at 00h 21m 18s.xml">
+      <configuration name="Unittests in rc_local_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_base_system_file_test_py - 2018.08.27 at 00h 23m 05s.xml">
+      <configuration name="Unittests in base_system_file_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_base_system_file_test_py - 2018.08.27 at 00h 44m 57s.xml">
+      <configuration name="Unittests in base_system_file_test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -497,12 +472,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.259542" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32824427" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32681867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -511,9 +486,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.32717392" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.32681867" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.3292683" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49946696" weight="0.32824427" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49946696" weight="0.32790446" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32824427" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -522,6 +497,32 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Key Promoter X" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.259542" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32681867" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="SonarLint" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.32681867" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49946696" weight="0.32790446" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32824427" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Key Promoter X" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -534,7 +535,8 @@
     <MESSAGE value="新增line_setting 类 ，而且rclocal继承line setting" />
     <MESSAGE value="增加idea工程目录下的文件&#10;修复searcher的两处bug&#10;增加base_system_file的测试用例和测试用例所需的文件" />
     <MESSAGE value="fix PEP8 problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix PEP8 problems" />
+    <MESSAGE value="取消追踪idea文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value="取消追踪idea文件夹" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tests/__init__.py">
@@ -548,9 +550,6 @@
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylinux/config_file/base_config_file.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
@@ -580,31 +579,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylinux/common/modifier/line_setting_modifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylinux/common/default_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/files/base_system_file.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Python27/Lib/uuid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="593" column="13" selection-start-line="593" selection-end-line="593" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pylinux/common/modifier/base_modifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylinux/common/searcher/line_setting_searcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylinux/common/searcher/rc_local_searcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="242">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pylinux/common/modifier/rc_local_modifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="264">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -617,29 +644,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pylinux/common/file_config/rc_local_file_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state relative-caret-position="198">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/context.py">
+    <entry file="file://$PROJECT_DIR$/pylinux/common/util/file_util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" selection-end-line="19" />
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1535301294684" expanded="true" signature="74:75" ph="..." />
+            <marker date="1535301294684" expanded="true" signature="74:79" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/Python27/Lib/unittest/case.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_rc_local.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="328" selection-start-line="328" selection-end-line="328" />
+        <state relative-caret-position="-222">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#37#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylinux/common/acessor/rc_local_accessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylinux/common/acessor/line_setting_accessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylinux/config_file/base_config_file.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pylinux/system_file/rc_local.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="64">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="e#38#115#0" expanded="true" />
           </folding>
@@ -648,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pylinux/system_file/line_setting_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="130">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="e#38#115#0" expanded="true" />
@@ -656,75 +707,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pylinux/common/default_settings.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-324465326/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylinux/common/modifier/line_setting_modifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="198">
+          <caret line="1858" column="8" selection-start-line="1858" selection-start-column="8" selection-end-line="1858" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pylinux/common/file_config/file_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/files/base_system_file.test">
+    <entry file="file://$PROJECT_DIR$/pylinux/common/acessor/base_accessor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylinux/common/searcher/base_searcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+        <state relative-caret-position="438">
+          <caret line="120" column="12" lean-forward="true" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
           <folding>
             <element signature="e#38#47#0" expanded="true" />
+            <marker date="1535303709298" expanded="true" signature="2856:2901" ph="..." />
+            <marker date="1535303709298" expanded="true" signature="2949:3144" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/base_system_file_test.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/common/base_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#37#50#0" expanded="true" />
+            <marker date="1535304721145" expanded="true" signature="216:220" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pylinux/system_file/base_system_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="26">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="e#37#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/rc_local_test.py">
+    <entry file="file://G:/Python27/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#37#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="417" column="8" selection-start-line="417" selection-start-column="8" selection-end-line="417" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/tests/test_base_system_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="629">
+          <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

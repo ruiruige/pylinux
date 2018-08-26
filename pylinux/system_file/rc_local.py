@@ -3,7 +3,7 @@
 
 from pylinux.common.file_config.rc_local_file_config import RcLocalFileConfig
 from pylinux.common.modifier.rc_local_modifier import RcLocalModifier
-from pylinux.common.searcher.rc_local_searcher import RcLocalSearcher
+from pylinux.common.acessor.rc_local_accessor import RcLocalAccessor
 from pylinux.system_file.base_system_file import BaseSystemFile
 from pylinux.exception.name_not_valid_exception import NameNotValidException
 from pylinux.exception.setting_not_valid_exception import SettingNotValidException
@@ -14,7 +14,7 @@ class RcLocal(BaseSystemFile):
     rc.local的配置文件类
     """
 
-    def __init__(self, filepath="/etc/rc.local", searcher=RcLocalSearcher, modifier=RcLocalModifier,
+    def __init__(self, filepath="/etc/rc.local", searcher=RcLocalAccessor, modifier=RcLocalModifier,
                  file_config=RcLocalFileConfig()):
         super(RcLocal, self).__init__(filepath, searcher, modifier, file_config=file_config)
 

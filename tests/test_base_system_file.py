@@ -2,24 +2,28 @@
 # coding=utf-8
 
 import unittest
+
 import context
 
+from pylinux.common.util import file_util
 from pylinux.system_file.base_system_file import BaseSystemFile
 
+from tests.common.base_test import BaseTest
 
-class BaseSystemFileTestCase(unittest.TestCase):
+
+class TestBaseSystemFile(BaseTest):
     test_fp = None
 
     @classmethod
     def setUpClass(cls):
-        BaseSystemFileTestCase.test_fp = context.get_test_abs_filepath("base_system_file.test")
+        TestBaseSystemFile.test_fp = context.get_test_abs_filepath("base_system_file.test")
 
     @classmethod
     def tearDownClass(cls):
-        BaseSystemFileTestCase.test_fp = None
+        TestBaseSystemFile.test_fp = None
 
     def setUp(self):
-        self.base_system_file = BaseSystemFile(BaseSystemFileTestCase.test_fp)
+        self.base_system_file = BaseSystemFile(TestBaseSystemFile.test_fp)
 
     def tearDown(self):
         self.base_system_file = None
@@ -94,6 +98,19 @@ class BaseSystemFileTestCase(unittest.TestCase):
         expected = name + "_value"
         value = self.base_system_file.get_setting(name)
         self.assertEqual(value, expected)
+
+    def test_add_setting(self):
+        """
+        验证增加一个配置项
+        :return:
+        """
+        random_fp = file_util.generate_tmp_fp()
+        self.cp_example_file(self.test_fp, random_fp)
+        tmp_file = BaseSystemFile(random_fp)
+        tmp_file.set_setting("liu", "rui")
+
+        now_file = BaseSystemFile(random_fp)
+        self.assertEqual("rui", now_file.get_setting("liu"))
 
 
 if __name__ == '__main__':

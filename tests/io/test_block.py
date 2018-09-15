@@ -34,12 +34,18 @@ class TestBlock(unittest.TestCase):
 
     def test_block(self):
         text = """
-xvda             250G disk
+NAME  FSTYPE   SIZE TYPE MOUNTPOINT
+xvda           250G disk
 xvda1 ext4     250G part /
-xvdb    ext4    1000G disk /home/username/name/1.1.1.1
-xvdc    ext4    1000G disk /home/username/name/1.1.1.1/folder_name
+xvdb  ext4    1000G disk /home/admin/name/123
+xvdc  ext4    1000G disk /home/admin/name/123/xxx
 """
-        print parse_lsblk_output(text)
+        block_list = parse_lsblk_output(text)
+        for block in block_list:
+            print block
+
+        print block_list[0].partitions
+        self.assertEqual(len(block_list[0].partitions), 1)
 
 
 if __name__ == '__main__':

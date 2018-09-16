@@ -4,6 +4,7 @@
 import re
 
 from pylinux.common.file_config.file_config import FileConfig
+from pylinux.exception.setting_not_found_exception import SettingNotFoundException
 
 
 class BaseAccessor(object):
@@ -117,5 +118,12 @@ class BaseAccessor(object):
 
         self.append_one_line(self.file_config.generate_setting_line(name, value))
 
-    def update_setting(self, name, value):
-        pass
+    def update_setting(self, name, value, occurrence=None):
+        if not occurrence:
+            occurrence = self.get_setting_occurrence(name)
+
+        if not occurrence:
+            return SettingNotFoundException("can not find setting of %s while updating" % name, name)
+
+        line = self.file_config.generate_setting_line(name, value)
+        self.lines[occurrence] = line

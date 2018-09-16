@@ -112,6 +112,19 @@ class TestBaseSystemFile(BaseTest):
         now_file = BaseSystemFile(random_fp)
         self.assertEqual("rui", now_file.get_setting("liu"))
 
+    def test_update_setting(self):
+        """
+        test update a setting
+        :return:
+        """
+        random_fp = file_util.generate_tmp_fp()
+        self.cp_example_file(self.test_fp, random_fp)
+        tmp_file = BaseSystemFile(random_fp)
+        tmp_file.set_setting("test_update_setting", "after_value")
+
+        now_file = BaseSystemFile(random_fp)
+        self.assertEqual("after_value", now_file.get_setting("test_update_setting"))
+
 
 if __name__ == '__main__':
     unittest.main()

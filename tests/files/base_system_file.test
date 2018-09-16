@@ -30,4 +30,5 @@ test_right_space_name=test_right_space_name_value
 ###### pylinux setting: [test_connector_space_name] ######
 test_connector_space_name   = test_connector_space_name_value
 
+test_update_setting = before_value
 

@@ -36,7 +36,7 @@ class BaseSystemFile(object):
     def set_setting(self, name, value, add_comment=True):
         occurrence = self.accessor.get_setting_occurrence(name)
         if occurrence:
-            self.accessor.add_setting(name, value, add_comment)
-        else:
             self.accessor.update_setting(name, value)
+        else:
+            self.accessor.add_setting(name, value, add_comment)
         self.flush()
